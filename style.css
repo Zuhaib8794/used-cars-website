@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+/* centering and positioning of navbar  */
+.left {
+    /* border: 2px solid #008000;  */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.mid {
+    /* border: 2px solid yellow;  */
+    font-size: 17px;
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    position: relative;
+    right: 28px;
+
+}
+
+.right {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+/* navbar css for mid  */
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 33px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline rgba(255, 166, 0, 0.854);
+    color: rgba(255, 166, 0, 0.854);
+}
+
+/* navbar css for left  */
+
+.left img {
+    width: 160px;
+    filter: invert(100%);
+    position: relative;
+    bottom: 35px;
+    right: 25px;
+}
+
+
+/* navbar css for right container  */
+
+.btn {
+    font-family: 'Secular One', sans-serif;
+    margin: 0px 9px;
+    border: 2px solid lightgray;
+    background-color: transparent;
+    border-radius: 14px;
+    color: white;
+   
+    padding: 6px 28px;
+    border-radius: 10px;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    /* color: rgba(255, 166, 0, 0.854); */
+    text-decoration: underline;
+}
+
+
+/* now form design  */
+
+
+.container {
+    margin: 56px 29px;
+    padding: 78px 40px;
+    border: 2px solid white;
+    border-radius: 22px;
+    width: 33%;
+    /* height: 182px; */
+
+}
+
+.container h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form-group input{
+    display: block;
+    width: 52%;
+    margin: 11px auto;
+    padding: 5px 17px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 17px;
+
+}
+
+.container button{
+    font-family: 'Secular One', sans-serif;
+    display: block;
+    width: 62%;
+    border: 2px solid lightgray;
+    background-color: transparent;
+    border-radius: 14px;
+    padding: 13px 1px;
+    margin: 2px auto;
+    font-size: 23px;
+    color: white;
+    position: relative;
+    top: 19px;
+}
